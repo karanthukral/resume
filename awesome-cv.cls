@@ -150,7 +150,7 @@
 
 % Awesome section color
 \def\@sectioncolor#1#2#3{%
-  \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
+	\color{awesome}{#1#2#3}%
 }
 
 
@@ -230,6 +230,7 @@
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\scshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
+\newcommand*{\projectextrainfostyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text} #1}}
 
 % For elements of subentry
@@ -547,14 +548,14 @@
 }
 
 % Define an entry of cv information
-% Usage: \cvprojectentry{<title>}{<description>}
-\newcommand*{\cvprojectentry}[2]{%
+% Usage: \cvprojectentry{<title>}{<date/title>}{<description>}
+\newcommand*{\cvprojectentry}[3]{%
   \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
-   \entrytitlestyle{#1}\\
-    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#2}}
+   \entrytitlestyle{#1} & \projectextrainfostyle{#2}\\
+    \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#3}}
   \end{tabular*}%
 }
 
