@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  21 SEP 2016 18:52
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.5.22)  22 SEP 2016 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -175,12 +175,27 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no j in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -644,7 +659,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.42         \item {
-                    Won 1st Place and a Thiel Fellowship Grant at McHacks 20...
+                    Won \textbf{1st Place} and a \textbf{Thiel Fellowship Gr...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -652,38 +667,10 @@ If that doesn't work, type  X <return>  to quit.
 Missing character: There is no W in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no M in font nullfont!
@@ -710,6 +697,41 @@ l.43       \end{cvitems}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
+
+
+Overfull \hbox (14.75824pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 1st
+ []
+
+
+Overfull \hbox (27.02762pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 Place
+ []
+
+
+Overfull \hbox (26.04848pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 Thiel
+ []
+
+
+Overfull \hbox (18.5763pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 Fel-
+ []
+
+
+Overfull \hbox (20.76378pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 low-
+ []
+
+
+Overfull \hbox (20.50821pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 ship
+ []
+
+
+Overfull \hbox (29.90955pt too wide) in paragraph at lines 42--45
+\OT1/cmr/bx/n/10 Grant
+ []
 
 ! Undefined control sequence.
 l.47   \cvprojectentry
@@ -1231,11 +1253,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 8 strings out of 493591
- 84 string characters out of 6143546
+ 11 strings out of 493591
+ 109 string characters out of 6143546
  54754 words of memory out of 5000000
- 3517 multiletter control sequences out of 15000+600000
- 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 3519 multiletter control sequences out of 15000+600000
+ 3948 words of font info for 15 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 7i,1n,7p,153b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 13i,1n,10p,153b,96s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
